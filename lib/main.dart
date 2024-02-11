@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:foodrecipe/widgets/imagesection.dart';
 import 'package:foodrecipe/widgets/topsection.dart';
 import 'package:foodrecipe/widgets/header.dart';
+import 'package:foodrecipe/widgets/RatingSection.dart';
 
 void main() {
   runApp(MyApp());
@@ -40,6 +41,7 @@ class MyHomePage extends StatelessWidget {
           topsection(),
           header(),
           imageSection(),
+          RatingSection(),
           
         ],
         
