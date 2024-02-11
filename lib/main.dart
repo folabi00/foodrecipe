@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foodrecipe/widgets/topsection.dart';
+import 'package:foodrecipe/widgets/header.dart';
 
 void main() {
   runApp(MyApp());
@@ -35,7 +36,8 @@ class MyHomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
         children: [
-          topsection()
+          topsection(),
+          header(),
           
         ],
         
