@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foodrecipe/widgets/imagesection.dart';
 import 'package:foodrecipe/widgets/topsection.dart';
 import 'package:foodrecipe/widgets/header.dart';
 
@@ -38,6 +39,7 @@ class MyHomePage extends StatelessWidget {
         children: [
           topsection(),
           header(),
+          imageSection(),
           
         ],
         
