@@ -3,6 +3,7 @@ import 'package:foodrecipe/widgets/imagesection.dart';
 import 'package:foodrecipe/widgets/topsection.dart';
 import 'package:foodrecipe/widgets/header.dart';
 import 'package:foodrecipe/widgets/RatingSection.dart';
+import 'package:foodrecipe/widgets/UserProfile.dart';
 
 void main() {
   runApp(MyApp());
@@ -39,10 +40,10 @@ class MyHomePage extends StatelessWidget {
         child: Column(
         children: [
           topsection(),
-          header(),
+          const header(),
           imageSection(),
           RatingSection(),
-          
+          const UserProfile(photo: 'assets/images/unsplash_Ij24Uq1sMwM.png', name: 'Roberta Anny', location: 'Bali, Indonesia'),
         ],
         
       ), 
