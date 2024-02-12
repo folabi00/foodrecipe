@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:foodrecipe/widgets/imagesection.dart';
-import 'package:foodrecipe/widgets/topsection.dart';
-import 'package:foodrecipe/widgets/header.dart';
+import 'package:foodrecipe/widgets/IngredientSection.dart';
+import 'package:foodrecipe/widgets/ImageSection.dart';
+import 'package:foodrecipe/widgets/TopSection.dart';
+import 'package:foodrecipe/widgets/Header.dart';
 import 'package:foodrecipe/widgets/RatingSection.dart';
 import 'package:foodrecipe/widgets/UserProfile.dart';
 
@@ -39,11 +40,12 @@ class MyHomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
         children: [
-          topsection(),
-          const header(),
-          imageSection(),
+          TopSection(),
+          Header(),
+          ImageSection(),
           RatingSection(),
           const UserProfile(photo: 'assets/images/unsplash_Ij24Uq1sMwM.png', name: 'Roberta Anny', location: 'Bali, Indonesia'),
+          IngredientSection(),
         ],
         
       ), 

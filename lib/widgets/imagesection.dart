@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class imageSection extends StatelessWidget {
-    imageSection({super.key});
+class ImageSection extends StatelessWidget {
+    ImageSection({super.key});
 
   @override
   Widget build(BuildContext context) {
