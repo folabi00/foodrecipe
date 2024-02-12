@@ -61,7 +61,8 @@ class UserProfile extends StatelessWidget { final String photo; final String nam
               style: TextStyle(color: Colors.white ),
               ),
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.red,          
+              backgroundColor: Color(0xFFE23E3E),
+              foregroundColor: Colors.white,          
               padding:
               EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               shape: RoundedRectangleBorder(
